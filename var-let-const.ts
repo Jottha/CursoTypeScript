@@ -1,12 +1,12 @@
-let a = 1;
+const a = 1;
 
 function funcao() {
     console.log(a);
 
-    let b = 2;
+    const b = 2;
 
     if(true) {
-        let c = 3;
+        const c = 3;
         console.log(b);
     }
     console.log(c);
