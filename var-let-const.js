@@ -1,11 +1,16 @@
-var a = 1;
+'use strict';
+let a = 1;
+
 function funcao() {
     console.log(a);
-    var b = 2;
-    if (true) {
-        var c = 3;
+
+    let b = 2;
+
+    if(true) {
+        let c = 3;
         console.log(b);
     }
     console.log(c);
 }
+
 funcao();
