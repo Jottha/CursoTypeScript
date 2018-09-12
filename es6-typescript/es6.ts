@@ -1,3 +1,3 @@
-const soma = (num1, num2) => num1 + num2;
+const soma = num => num + 2;
 
 console.log(soma(2,2));
