@@ -1,3 +1,5 @@
-const soma = num => num + 2;
+function lista(a, b, c, ...listagem) {
+     console.log(listagem);
+}
 
-console.log(soma(2,2));
+lista(1,2,3,4,5,6,7,8,9);
