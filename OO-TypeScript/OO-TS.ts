@@ -1,7 +1,8 @@
-let variavel: string | number | boolean = 10;
+function soma(a, b, c?){
+    if(c != undefined){
+        return 2;
+    }
+    return a + b;
+}
 
-variavel = true;
-
-let outraVariavel: boolean = true;
-
-console.log(typeof variavel);
+soma(1, 2);
