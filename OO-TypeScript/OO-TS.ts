@@ -1,5 +1,7 @@
-enum Cores{
-    VERMELHOR, AZUL,AMARELO
-}
+let variavel: string | number | boolean = 10;
 
-let cor: Cores = Cores.AZUL;
+variavel = true;
+
+let outraVariavel: boolean = true;
+
+console.log(typeof variavel);
